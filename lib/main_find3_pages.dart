@@ -48,7 +48,7 @@ class MainFindPage3State extends State with SingleTickerProviderStateMixin {
         videoModel.isLike = false;
       }
       videoModel.videoImag =
-      "";
+      "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.doubanio.com%2Fview%2Frichtext%2Flarge%2Fpublic%2Fp151324064.jpg&refer=http%3A%2F%2Fimg9.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649688019&t=287e2650c4d26103d33e017605c20ff9";
       videoModel.videoUrl =
       "";
 
@@ -66,9 +66,9 @@ class MainFindPage3State extends State with SingleTickerProviderStateMixin {
         videoModel.isLike = false;
       }
       videoModel.videoImag =
-      "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1582996017736&di=101751f6d5b16e03d501001ca62633d4&imgtype=0&src=http%3A%2F%2Fupload.idcquan.com%2F2018%2F0125%2F1516851762394.jpg";
+      "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.doubanio.com%2Fview%2Frichtext%2Flarge%2Fpublic%2Fp151324064.jpg&refer=http%3A%2F%2Fimg9.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649688019&t=287e2650c4d26103d33e017605c20ff9";
       videoModel.videoUrl =
-      "http://pic.studyyoun.com/MaterialApp%E7%BB%84%E4%BB%B6%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.mp4";
+      "";
 
       videoList2.add(videoModel);
     }

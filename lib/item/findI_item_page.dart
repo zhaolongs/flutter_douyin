@@ -28,8 +28,10 @@ class FindItemPageState extends State<FindItemPage> {
     // TODO: implement initState
     super.initState();
     // controller = VideoPlayerController.network(widget.videoModel.videoUrl);
+    print("开始加载");
     controller = VideoPlayerController.asset("images/video/list_item.mp4");
     initializeVideoPlayerFuture = controller.initialize().then((_) {
+      print("加载完成");
       controller.play();
       // 在初始化完成后必须更新界面
       setState(() {});

@@ -31,9 +31,9 @@ class FindVideoItemPageState extends State<FindVideoItemPage> {
     super.initState();
 
     ///网络链接
-    videoPlayerController = VideoPlayerController.network(widget.videoModel.videoUrl);
+    // videoPlayerController = VideoPlayerController.network(widget.videoModel.videoUrl);
     ///本地链接
-//    VideoPlayerController videoPlayerController2 = VideoPlayerController.asset(widget.videoModel.videoUrl);
+    videoPlayerController= VideoPlayerController.asset("images/video/list_item.mp4");
     ///File形式的视频
 //    VideoPlayerController videoPlayerController3 = VideoPlayerController.file(File(widget.videoModel.videoUrl));
 
